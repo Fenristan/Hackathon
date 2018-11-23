@@ -1,0 +1,7 @@
+Rudá 174.0.1
+Èervená 198.0.1
+Oranžová(tmavá) 241.99.1
+Oranžová(médium) 255.139.0
+Oranžová(svìtlá) 255.178.0
+Žlutá(tmavá) 254.201.1
+Žlutá 255.238.0

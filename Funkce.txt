@@ -1,0 +1,7 @@
+public void funkce (View v) //Najet na View a Alt + Enter, include Library
+EditText e1 = (EditText)findViewById(R.id.X);// X a Y nahradit ID od Number
+EditText e2 = (EditText)findViewById(R.id.Y);
+int sour_x = Integer.parseInt(e1.getText() .toString());
+int sour_y = Integer.parseInt(e2.getText() .toString());
+int neznámá = vzorec;
+int neznámá = vzorec;

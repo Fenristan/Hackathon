@@ -3,14 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
     <ScrollView
         android:layout_width="386dp"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="1dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -21,7 +20,7 @@
                 android:id="@+id/TextPetr1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Krásný Panel 32V"
+                android:text="KrÃ¡snÃ½ Panel 32V"
                 android:textColor="#000000"
                 android:textSize="30sp"
                 android:textStyle="bold" />
@@ -30,16 +29,16 @@
                 android:id="@+id/textPetr1-1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#000000"
                 android:text="300Wp; 18,35%;  1640 x 992 x 40 "
+                android:textColor="#000000"
                 android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/Cena1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="4.591 KÃ¨ / 5.556 KÃ¨ "
                 android:textColor="#000000"
-                android:text="4.591 Kè / 5.556 Kè "
                 android:textSize="30sp" />
 
             <Button
@@ -54,7 +53,7 @@
                 android:id="@+id/TextPetr2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Nádhernìjší panel 30V"
+                android:text="NÃ¡dhernÃ¬jÅ¡Ã­ panel 30V"
                 android:textColor="#000000"
                 android:textSize="30sp"
                 android:textStyle="bold" />
@@ -63,16 +62,16 @@
                 android:id="@+id/textPetr2-1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#000000"
                 android:text="280Wp; 17,11%; 1650x992x40"
+                android:textColor="#000000"
                 android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/Cena2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="3.111 KÃ¨ / 3.764 KÃ¨"
                 android:textColor="#000000"
-                android:text="3.111 Kè / 3.764 Kè"
                 android:textSize="30sp" />
 
             <Button
@@ -85,7 +84,7 @@
                 android:id="@+id/TextPetr3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Nejnádhernìjší panel 28V"
+                android:text="NejnÃ¡dhernÃ¬jÅ¡Ã­ panel 28V"
                 android:textColor="#000000"
                 android:textSize="30sp"
                 android:textStyle="bold" />
@@ -94,16 +93,16 @@
                 android:id="@+id/textPetr3-1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#000000"
                 android:text="100Wp; 15,23%; 100x67x20"
+                android:textColor="#000000"
                 android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/Cena3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="1.954 KÃ¨ / 2.364 KÃ¨"
                 android:textColor="#000000"
-                android:text="1.954 Kè / 2.364 Kè"
                 android:textSize="30sp" />
 
             <Button
@@ -116,7 +115,7 @@
                 android:id="@+id/TextPetr4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Fascinující panel 31V"
+                android:text="FascinujÃ­cÃ­ panel 31V"
                 android:textColor="#000000"
                 android:textSize="30sp"
                 android:textStyle="bold" />
@@ -125,15 +124,15 @@
                 android:id="@+id/textPetr4-1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#000000"
                 android:text="100Wp; 15,3%; 100x67x32"
+                android:textColor="#000000"
                 android:textSize="24sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="1.776 KÃ¨ / 2.149 KÃ¨ "
                 android:textColor="#000000"
-                android:text="1.776 Kè / 2.149 Kè "
                 android:textSize="30sp" />
 
             <Button
@@ -141,6 +140,45 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Vybrat" />
+
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="NÃ¡zev"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="VÃ½kon"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="ÃšÄinost"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Velikost m^2"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PÅ™idat" />
 
         </LinearLayout>
     </ScrollView>

@@ -29,7 +29,7 @@
                 android:id="@+id/textPetr1-1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="300Wp; 18,35%;  1640 x 992 x 40 "
+                android:text="300Wp; 18,35%;  1640x992x40 "
                 android:textColor="#000000"
                 android:textSize="24sp" />
 
@@ -48,7 +48,7 @@
                 android:ems="10"
                 android:hint="m^2"
                 android:inputType="textPersonName"
-                android:textSize="20p" />
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/button"
@@ -90,7 +90,7 @@
                 android:ems="10"
                 android:hint="m^2"
                 android:inputType="textPersonName"
-                android:textSize="20p" />
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/button2"
@@ -130,7 +130,7 @@
                 android:ems="10"
                 android:hint="m^2"
                 android:inputType="textPersonName"
-                android:textSize="20p" />
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/button3"
@@ -169,7 +169,7 @@
                 android:ems="10"
                 android:hint="m^2"
                 android:inputType="textPersonName"
-                android:textSize="20p" />
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/button4"

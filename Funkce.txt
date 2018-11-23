@@ -3,5 +3,23 @@ EditText e1 = (EditText)findViewById(R.id.X);// X a Y nahradit ID od Number
 EditText e2 = (EditText)findViewById(R.id.Y);
 int sour_x = Integer.parseInt(e1.getText() .toString());
 int sour_y = Integer.parseInt(e2.getText() .toString());
-int nezn·m· = vzorec;
-int nezn·m· = vzorec;
+int nezn√°m√° = vzorec;
+int nezn√°m√° = vzorec;
+
+
+public void funkce(View v)
+    {
+        EditText e1 = (EditText)findViewById(R.id.Cena_el);
+        TextView t1 = (TextView)findViewById(R.id.Mes_Energie);
+        TextView t2 = (TextView)findViewById(R.id.Roc_Energie);
+        TextView t3 = (TextView)findViewById(R.id.Mes_utrata);
+        TextView t4 = (TextView)findViewById(R.id.Roc_utrata);
+        int cena = Integer.parseInt(e1.getText() .toString());
+        int me = 50;//x - Nahradi se v dalsi casti programu, kWh
+        int re = 600;//y - Nahradi se v dalsi casti programu
+        int mu = cena*50;
+        int ru = cena*600;
+        t1.setText(Integer.toString(me));
+        t2.setText(Integer.toString(re));
+        t3.setText(Integer.toString(mu));
+        t4.setText(Integer.toString(ru));
